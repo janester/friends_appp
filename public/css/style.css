@@ -86,6 +86,14 @@ form {
 div #icons {
   height: 32px;
   width: 32px;
-  display: inline-block;
+  display: inline;
+  margin-top: 1em;
+  padding-left: 1em;
 }
+
+.float
+{
+  float: left;
+}
+
 

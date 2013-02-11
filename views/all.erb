@@ -12,18 +12,16 @@
     <div class="li">Name:</div>
     <div class="li">Age:</div>
     <div class="li">Gender:</div>
-    <div class="li">
-      <a href="<%= row["twitter"] %>"><img id="icons" src="/twitter.png"></a>
-      <a href="<%= row["facebook"] %>"><img id="icons"src="/facebook.png"></a>
-    </div>
-<!--     <div class="li"></div> -->
   </div>
   <div class="span7">
     <div class="li" id="info"><%= row["name"] %></div>
     <div class="li" id="info"><%= row["age"] %></div>
     <div class="li" id="info"><%= row["gender"] %></div>
-<!--     <div class="li" id="info"><%= row["twitter"] %></div>
-    <div class="li" id="info"><%= row["facebook"] %></div> -->
+    <div>
+      <div class="float">
+      <a href="<%= row["twitter"] %>"><img id="icons" src="/twitter.png"></a></div>
+      <div class="float"><a href="<%= row["facebook"] %>"><img id="icons"src="/facebook.png"></a></div>
+    </div>
   </div>
 </div>
 <% end %>
